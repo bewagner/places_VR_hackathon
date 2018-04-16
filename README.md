@@ -1,2 +1,3 @@
-# places_VR_hackathon
-Repository for the places _ VR Hackathon
+![Hackathon Image](images/hackathon-_-visual-_-final-_-gross.png "Hackathon image")
+
+
