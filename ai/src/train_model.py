@@ -28,6 +28,8 @@ data = data[[*data.columns[1:], 'Power']]
 scaler = StandardScaler()
 scaled_features = scaler.fit_transform(data.values)
 data = pd.DataFrame(scaled_features, index=data.index, columns=data.columns)
+with open('scaler.pickle', 'wb') as handle:
+    pickle.dump(scaler, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 # Divide data into train and test set
 train_percentage = 0.7
@@ -62,13 +64,14 @@ best_first_layer = 0
 best_second_layer = 0
 best_batch_size = 0
 
-values = [2, 13, 24, 35, 46, 56, 67, 78, 89, 100]
+values = [ 13,35,  56,  100]
 
 parameters = {'number_of_neurons_first_layer': values, 'number_of_neurons_second_layer': values,
-              'batch_size': list(map(int, map(round, np.linspace(20, 300, 10))))}
-estimator = KerasRegressor(build_fn=baseline_model, epochs=300, verbose=2)
+              'batch_size': list(map(int, map(round, np.linspace(20, 300, 4))))}
+estimator = KerasRegressor(build_fn=baseline_model, epochs=10, verbose=2)
 clf = GridSearchCV(estimator, parameters)
 clf.fit(x_train, y_train)
+
 
 with open('clf.pickle', 'wb') as handle:
     pickle.dump(clf, handle, protocol=pickle.HIGHEST_PROTOCOL)
