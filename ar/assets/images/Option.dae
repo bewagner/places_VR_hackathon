@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2018-04-21T01:49:08</created>
-    <modified>2018-04-21T01:49:08</modified>
+    <created>2018-04-21T02:28:01</created>
+    <modified>2018-04-21T02:28:01</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -23,7 +23,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -31,6 +31,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -49,7 +52,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -57,6 +60,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -75,7 +81,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -83,6 +89,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -101,7 +110,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -109,6 +118,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -127,7 +139,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -135,6 +147,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -153,7 +168,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -161,6 +176,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -179,7 +197,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -187,6 +205,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -205,7 +226,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.672 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -213,6 +234,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
@@ -231,7 +255,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0 0.64 0.44 1</color>
+              <color sid="diffuse">0 0.44 0.64 1</color>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -239,6 +263,9 @@
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.61</color>
+            </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
